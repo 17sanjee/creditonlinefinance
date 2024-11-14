@@ -4,11 +4,13 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+
 const blogs = [
   {
     id: 1,
     image: '/images/image1.png', // Replace with your image paths
     title: 'Blog Title 1',
+   
     
   },
   {
@@ -59,6 +61,7 @@ const Blogs = () => {
 
   return (
     <section
+      id="blogs"
       className="bg-cover bg-center py-12"
       style={{ backgroundImage: 'url("/images/headbg.png")' }} // Replace with your background image path
     >
@@ -89,4 +92,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+export default Blogs;  

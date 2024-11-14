@@ -24,9 +24,9 @@ const pricingPlans = [
     features: [
       'Advanced Predictive Analytics',
       'AI-Driven Risk Management',
-      'Automated Loan and Credit Processing',
+      'Automated Loan Approval',
       'Customizable Financial Reports',
-      'Scalable Solutions for Team Expansion',
+      'Scalable Team Growth Solutions',
     ],
   },
   {
@@ -39,7 +39,7 @@ const pricingPlans = [
       'Unlimited Users and Transactions',
       'Dedicated Account Manager',
       'Real-Time Investment Insights',
-      'Scalable AI Solutions for Global Operations',
+      'Scalable AI for Global Reach',
     ],
   },
 ];
@@ -47,9 +47,10 @@ const pricingPlans = [
 const PricingPlan = () => {
   return (
     <section
+      id="pricing"
       className="pricing-section min-h-screen "
       style={{
-        backgroundImage: 'url("/images/headbg.png")',
+        backgroundImage: 'url("/images/background_pricingplan.png")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         padding: '60px 0',
@@ -70,7 +71,7 @@ const PricingPlan = () => {
       key={plan.id}
       className={`pricing-card ${index === 1 ? 'middle-card' : ''}`} // Add 'middle-card' class to the second card
       style={{
-        backgroundImage: `url(${plan.backgroundImage})`,
+       
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
@@ -89,13 +90,15 @@ const PricingPlan = () => {
       <ul className="plan-features">
         {plan.features.map((feature, index) => (
           <li key={index} className="feature-item">
-            <span className="feature-icon">✔️</span> {feature}
+            <span className="feature-icon ">✔️</span> {feature}
           </li>
         ))}
       </ul>
       
       {/* Buy Now Button */}
-      <button className="buy-now-btn">Buy Now</button>
+      <button className="buy-now-btn"><a href="https://app.creditonlinefinance.com/user/login" className="buy-now-btn" target="_blank" rel="noopener noreferrer">
+  Buy Now
+</a></button>
     </div>
   ))}
 </div>

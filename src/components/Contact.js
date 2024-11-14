@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section className="relative bg-cover bg-center" style={{ backgroundImage: 'url(/images/headbg.png)' }}>
+    <section id="contact" className="relative bg-highlightgreen bg-cover bg-center" style={{ backgroundImage: 'url(/images/contact_background.png)' }}>
       <div className="container mx-auto px-4 py-10">
         <h2 className="text-center text-3xl font-bold text-black">
           Contact Us
@@ -13,45 +13,45 @@ const Contact = () => {
         {/* Card Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 pl-12 pr-12">
           {/* Card 1 */}
-          <div className="flex rounded-lg shadow-lg overflow-hidden">
+          <div className="flex rounded-lg shadow-lg overflow-hidden bg-lowdarkgreen">
             <div
-              className="w-1/5 bg-blue-300 flex justify-center items-center text-white"
+              className="w-1/5 bg-darkGreen flex justify-center items-center text-white"
               style={{ clipPath: 'polygon(0 0, 100% 0, 80% 100%, 0 100%)' }}
             >
-              <img src="/images/image1.png" alt="Email Icon" className="w-16 h-16 rounded-full" /> {/* Rounded image */}
+              <img src="/images/Address.png" alt="Email Icon" className="w-16 h-16 rounded-full" /> {/* Rounded image */}
 
             </div>
             <div className="w-4/5 bg-white p-4 flex flex-col justify-center">
-              <h3 className="font-bold text-lg">Card Title 1</h3>
-              <p className="text-gray-600">Description for card 1 goes here.</p>
+              <h3 className="font-bold text-lg ">Address</h3>
+              <p className="text-gray-600 pt-2">  268 Elvitigala Mawatha, Colombo 00500,Sri Lanka.</p>
             </div>
           </div>
 
           {/* Card 2 */}
-          <div className="flex rounded-lg shadow-lg overflow-hidden">
+          <div className="flex rounded-lg shadow-lg overflow-hidden bg-lowdarkgreen">
             <div
-              className="w-1/5 bg-blue-300 flex justify-center items-center text-white"
+              className="w-1/5 bg-darkGreen flex justify-center items-center text-white"
               style={{ clipPath: 'polygon(0 0, 100% 0, 80% 100%, 0 100%)' }}
             >
-              <img src="/images/image1.png" alt="Email Icon" className="w-16 h-16 rounded-full" /> {/* Rounded image */}
+              <img src="/images/Email.png" alt="Email Icon" className="w-16 h-16 rounded-full" /> {/* Rounded image */}
             </div>
             <div className="w-4/5 bg-white p-4 flex flex-col justify-center">
-              <h3 className="font-bold text-lg">Card Title 2</h3>
-              <p className="text-gray-600">Description for card 2 goes here.</p>
+              <h3 className="font-bold text-lg">Email</h3>
+              <p className="text-gray-600 pt-2">admin@app.creditonlinefinance.com</p>
             </div>
           </div>
 
           {/* Card 3 */}
-          <div className="flex rounded-lg shadow-lg overflow-hidden">
+          <div className="flex rounded-lg shadow-lg overflow-hidden bg-lowdarkgreen">
             <div
-              className="w-1/5 bg-blue-300 flex justify-center items-center text-white"
+              className="w-1/5 bg-darkGreen flex justify-center items-center text-white"
               style={{ clipPath: 'polygon(0 0, 100% 0, 80% 100%, 0 100%)' }}
             >
-              <img src="/images/image1.png" alt="Email Icon" className="w-16 h-16 rounded-full" /> {/* Rounded image */}
+              <img src="/images/phone.png" alt="Email Icon" className="w-16 h-16 rounded-full" /> {/* Rounded image */}
             </div>
             <div className="w-4/5 bg-white p-4 flex flex-col justify-center">
-              <h3 className="font-bold text-lg">Card Title 3</h3>
-              <p className="text-gray-600">Description for card 3 goes here.</p>
+              <h3 className="font-bold text-lg">Phone</h3>
+              <p className="text-gray-600 pt-2">+94 76 301 6688</p>
             </div>
           </div>
         </div>
@@ -67,13 +67,13 @@ const Contact = () => {
               </div>
               <input type="text" placeholder="Subject" className="border border-blue-500 p-2 rounded w-full mt-4" />
               <textarea placeholder="Message" className="border border-blue-500 p-2 rounded w-full mt-4" rows="4"></textarea>
-              <button type="submit" className="bg-blue-600 text-white py-2 px-4 rounded mt-4">Send Message</button>
+              <button type="submit" className="bg-lightGreen text-white py-2 px-4 rounded mt-4">Send Message</button>
             </form>
           </div>
 
           {/* Right Side Image */}
           <div className="w-full md:w-5/12 p-4 ">
-            <img src="/images/image1.png" alt="Contact Image" className="w-full h-96 object-cover rounded-lg" />
+            <img src="/images/contact.png" alt="Contact Image" className="w-full h-96 object-cover rounded-lg" />
           </div>
         </div>
       </div>

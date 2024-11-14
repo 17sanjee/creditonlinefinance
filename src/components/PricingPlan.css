@@ -17,7 +17,7 @@
   }
   
   .pricing-card {
-    background-color: #f0f9ff; /* Dark overlay on the card background image */
+    background-color:#E9EFEC; /* Dark overlay on the card background image */
     padding-left: 50px;
     padding-top: 00px;
     padding-right: 50px;
@@ -29,7 +29,7 @@
   }
   
   .plan-title {
-    background-color: #dff2ff;
+    background-color: #C4DAD2;
     color: #000;
     padding: 10px;
     font-size: 1.5rem;
@@ -41,7 +41,7 @@
   .plan-price {
     font-size: 50px;
     margin-bottom: 20px;
-    color: #005d8f;
+    color: #6A9C89;
     font-weight: bold;
   }
   
@@ -61,12 +61,12 @@
   
   .feature-icon {
     margin-right: 10px;
-    color: #4e96bc; /* Icon color */
+    color: #6A9C89; /* Icon color */
   }
   
   .buy-now-btn {
-    background-color: #f0f9ff;
-    color: #005d8f;
+    background-color: #6A9C89;
+    color: #fff;
     padding: 10px 15px;
     border: none;
     border-radius: 20px;
@@ -77,7 +77,7 @@
   }
   
   .buy-now-btn:hover {
-    background-color: #3a79a1; /* Darker shade for hover effect */
+    background-color: #16423C; /* Darker shade for hover effect */
   }
   
   /* Responsive Styles */

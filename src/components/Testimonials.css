@@ -1,7 +1,7 @@
 .testimonials-section {
   position: relative;
   padding: 60px 0;
-  background-color: #f8f9fa;
+  background-color: #E9EFEC;
   text-align: center;
 }
 
@@ -17,7 +17,7 @@
   bottom: -5px;
   width: 50%;
   height: 3px;
-  background-color: rgb(93, 93, 206);
+  background-color: #6A9C89;
   transform: translateX(-50%);
 }
 
@@ -34,7 +34,7 @@
   overflow: hidden;
   padding: 20px;
   color: #fff;
-  background-color:#4e96bc; /* Dark overlay on the background image */
+  background-color:#6A9C89; /* Dark overlay on the background image */
 }
 
 .testimonial-content {
