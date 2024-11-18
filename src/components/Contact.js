@@ -47,7 +47,7 @@ const Contact = () => {
               className="w-1/5 bg-darkGreen flex justify-center items-center text-white"
               style={{ clipPath: 'polygon(0 0, 100% 0, 80% 100%, 0 100%)' }}
             >
-              <img src="/images/phone.png" alt="Email Icon" className="w-16 h-16 rounded-full" /> {/* Rounded image */}
+              <img src="/images/Phone.png" alt="Email Icon" className="w-16 h-16 rounded-full" /> {/* Rounded image */}
             </div>
             <div className="w-4/5 bg-white p-4 flex flex-col justify-center">
               <h3 className="font-bold text-lg">Phone</h3>
